@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import packaged.getOTP as getOTP
+
 
 Mobile.startApplication('C:\\Users\\muhra\\Downloads\\app-release (35).apk', true)
 
@@ -42,3 +44,6 @@ Mobile.tap(findTestObject('Button_Profile'), 0)
 Mobile.setText(findTestObject('Login/FieldText_NoHP'), noHP, 0)
 
 Mobile.tap(findTestObject('Login/Button_Masuk'), 0)
+
+String otp = CustomKeywords.'packaged.getOTP.checkOTP'('081812344321', 'login')
+
