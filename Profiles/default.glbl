@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'jdbc:mysql://rm-d9jl3xtniu9x99a4f2o.mysql.ap-southeast-5.rds.aliyuncs.com:3306/ms_auth'</initValue>
+      <name>G_dbURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'qcadmin'</initValue>
+      <name>G_Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sB1w1^%1qoQ9HhHv'</initValue>
+      <name>G_Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'com.mysql.cj.jdbc.Driver'</initValue>
+      <name>G_dbDriver</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
