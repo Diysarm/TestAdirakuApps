@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import packaged.getOTP as getOTP
 
-Mobile.startApplication('C:\\Users\\rasyid\\git\\TestAdirakuApps\\Apps\\app-release (6).apk', true)
+Mobile.startApplication('Apps\\app-release-30.apk', true)
 
 Mobile.verifyElementVisible(findTestObject('Initial_Screen/Button _X'), 0)
 
