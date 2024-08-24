@@ -11,11 +11,24 @@
       <value></value>
       <variableId>bb20359f-96e4-4c9d-aed4-552e784cfbce</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>67729ae0-d60a-415f-a7ff-6d86718af546</variableId>
+   </variableLinks>
    <variable>
-      <defaultValue>'081812344321'</defaultValue>
+      <defaultValue>'085712344321'</defaultValue>
       <description></description>
       <id>bb20359f-96e4-4c9d-aed4-552e784cfbce</id>
       <masked>false</masked>
       <name>noHP</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>67729ae0-d60a-415f-a7ff-6d86718af546</id>
+      <masked>false</masked>
+      <name>d</name>
    </variable>
 </TestCaseEntity>

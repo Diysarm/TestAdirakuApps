@@ -23,30 +23,30 @@ import internal.GlobalVariable
 
 public class getOTP {
 
-@Keyword
-    def String checkOTP(String mobileNumber, String type) {
-        // Construct the database connection URL
-        String connUrl = GlobalVariable.G_dbURL
-        String username = GlobalVariable.G_Username
-        String password = GlobalVariable.G_Password
-        String driverClassName = GlobalVariable.G_dbDriver
+	@Keyword
+	def String checkOTP(String mobileNumber, String type) {
+		// Construct the database connection URL
+		String connUrl = GlobalVariable.G_dbURL
+		String username = GlobalVariable.G_Username
+		String password = GlobalVariable.G_Password
+		String driverClassName = GlobalVariable.G_dbDriver
 
-        // Initialize the connection
-        def data = Sql.newInstance(connUrl, username, password, driverClassName)
-        String otp = ""
-        String query = "SELECT code FROM ms_auth.adr_auth_otp WHERE mobile_number = '${mobileNumber}' AND type = '${type}'"
+		// Initialize the connection
+		def data = Sql.newInstance(connUrl, username, password, driverClassName)
+		String otp = ""
+		String query = "SELECT code FROM ms_auth.adr_auth_otp WHERE mobile_number = '${mobileNumber}' AND type = '${type}'"
 
-        try {
-            data.eachRow(query) { row ->
-                otp = row[0] // Assuming OTP is in the first column of the result set
-            }
-        } catch (Exception e) {
-            println "Error executing query: ${e.message}"
-        } finally {
-            data.close() // Ensure the database connection is closed
-        }
+		try {
+			data.eachRow(query) { row ->
+				otp = row[0] // Assuming OTP is in the first column of the result set
+			}
+		} catch (Exception e) {
+			println "Error executing query: ${e.message}"
+		} finally {
+			data.close() // Ensure the database connection is closed
+		}
 
-        println "Retrieved OTP: " + otp
-        return otp
-    }
+		println "Retrieved OTP: " + otp
+		return otp
+	}
 }

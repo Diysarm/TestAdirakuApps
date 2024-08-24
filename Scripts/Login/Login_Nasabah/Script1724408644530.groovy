@@ -18,8 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import packaged.getOTP as getOTP
 
-
-Mobile.startApplication('C:\\Users\\muhra\\Downloads\\app-release (35).apk', true)
+Mobile.startApplication('C:\\Users\\rasyid\\git\\TestAdirakuApps\\Apps\\app-release (6).apk', true)
 
 Mobile.verifyElementVisible(findTestObject('Initial_Screen/Button _X'), 0)
 
@@ -41,9 +40,19 @@ Mobile.tap(findTestObject('Button_Tutup_popup'), 0)
 
 Mobile.tap(findTestObject('Button_Profile'), 0)
 
+Mobile.tap(findTestObject('Login/FieldText_NoHP'), 0)
+
 Mobile.setText(findTestObject('Login/FieldText_NoHP'), noHP, 0)
+
+Mobile.hideKeyboard()
 
 Mobile.tap(findTestObject('Login/Button_Masuk'), 0)
 
-String otp = CustomKeywords.'packaged.getOTP.checkOTP'('081812344321', 'login')
+Mobile.verifyElementVisible(findTestObject('OTP_Screen/OTP_WA'), 0)
+
+Mobile.tap(findTestObject('OTP_Screen/OTP_WA'), 0)
+
+String otp = CustomKeywords.'packaged.getOTP.checkOTP'(noHP, 'login')
+
+Mobile.setText(findTestObject('OTP_Screen/FieldText_OTP'), otp, 0)
 
