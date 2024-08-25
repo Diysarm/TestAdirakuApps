@@ -38,12 +38,12 @@ public class getOTP {
 
 		try {
 			data.eachRow(query) { row ->
-				otp = row[0] // Assuming OTP is in the first column of the result set
+				otp = row[0]
 			}
 		} catch (Exception e) {
 			println "Error executing query: ${e.message}"
 		} finally {
-			data.close() // Ensure the database connection is closed
+			data.close()
 		}
 
 		println "Retrieved OTP: " + otp

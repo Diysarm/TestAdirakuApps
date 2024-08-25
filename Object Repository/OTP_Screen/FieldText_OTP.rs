@@ -3,7 +3,7 @@
    <description></description>
    <name>FieldText_OTP</name>
    <tag></tag>
-   <elementGuidId>8a2222b6-22e2-4130-9028-8c4b80cc11b2</elementGuidId>
+   <elementGuidId>d9fd3efa-d381-49bf-9589-b7448e592dfb</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -12,7 +12,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.TextView</value>
-      <webElementGuid>e6e2db44-3315-49be-9e1d-b16e18b98b53</webElementGuid>
+      <webElementGuid>346f947f-93da-4ce2-b430-84d0c20826b7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +20,7 @@
       <name>index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>d029b8ee-7de5-4f52-ac7d-8aad30443344</webElementGuid>
+      <webElementGuid>7b9a368d-e920-4226-8abe-7094022a51d7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +28,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Masukkan kode OTP yang telah dikirim ke 081812344321.</value>
-      <webElementGuid>24eaee56-f3a9-4c7d-8b28-a034e14f62dc</webElementGuid>
+      <webElementGuid>e7e98ada-bd29-4876-9ddd-555cb49d9ba1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +36,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>label_deskripsiMasukkanOTP</value>
-      <webElementGuid>637de72e-d5f0-4a80-9dc1-2e04c7a3fd85</webElementGuid>
+      <webElementGuid>4adeb40d-f412-48a4-ac39-48799f6498ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +44,7 @@
       <name>package</name>
       <type>Main</type>
       <value>id.co.adira.adiraku</value>
-      <webElementGuid>a61d0078-326e-43ad-a3fe-98eec532c7ae</webElementGuid>
+      <webElementGuid>51cc1d0f-2f1e-496d-9928-9a1c475386e2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +52,7 @@
       <name>content-desc</name>
       <type>Main</type>
       <value>label_deskripsiMasukkanOTP</value>
-      <webElementGuid>73a9efed-729a-47c3-a123-c9bc03b94c5d</webElementGuid>
+      <webElementGuid>9192ffd0-d80d-40d9-b96a-542825b53882</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +60,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b6fe8605-5ae6-4592-9b69-28d88cbf1fb0</webElementGuid>
+      <webElementGuid>73aec52e-81bd-4cb1-9ce8-ced2fb15b4b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +68,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>582582e8-295e-4be5-b6b8-ac80755475fa</webElementGuid>
+      <webElementGuid>61c39a5f-286e-4c43-9858-88aa9aa68e2d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +76,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5f690849-cffc-4735-9c0e-16d0833a44ae</webElementGuid>
+      <webElementGuid>b4cafb1e-5fa2-483c-bfe0-9a26ead3f44e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -84,7 +84,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>5d4eddcd-ba5c-46f8-884a-8cce91d9aef9</webElementGuid>
+      <webElementGuid>9f151cfe-9753-45d3-88f0-dfb40ae7a3be</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +92,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>af1b05be-d85a-472d-96ec-ade0cb04afd7</webElementGuid>
+      <webElementGuid>17b4fb04-3c63-4708-93c4-5a2dc7319550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -100,7 +100,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>39a3624b-535d-4746-853e-e76b097ca19c</webElementGuid>
+      <webElementGuid>9be84647-cca6-4d6b-aef0-c6b90ca954cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -108,7 +108,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6a2fe10f-5bbc-4f4c-bcc2-954b57a1bcc3</webElementGuid>
+      <webElementGuid>a1f50364-b005-46d5-bc52-e16c6f531753</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +116,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>6cc43231-f3e2-4412-b097-62720aaa6b89</webElementGuid>
+      <webElementGuid>1741a403-ae28-4b40-abfd-2a241e203db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -124,7 +124,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>120d6ae3-44dd-4b31-9c63-ece10a2a5c48</webElementGuid>
+      <webElementGuid>5b0ac6cf-43fc-439c-89e7-740201e41b8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -132,7 +132,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>12972fcf-1efe-4359-8f11-36ee3bc7bb3a</webElementGuid>
+      <webElementGuid>a0318283-72fa-4908-9930-ec0ff35cca29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -140,7 +140,7 @@
       <name>x</name>
       <type>Main</type>
       <value>44</value>
-      <webElementGuid>8bdf3cf9-419a-4367-a178-35d2e98ef228</webElementGuid>
+      <webElementGuid>d515c6f5-96b9-483e-b7c5-1d42ae3b36b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -148,7 +148,7 @@
       <name>y</name>
       <type>Main</type>
       <value>390</value>
-      <webElementGuid>4d8a4304-bcad-40ba-937f-5ff3074740d7</webElementGuid>
+      <webElementGuid>d0fb3f2d-0956-45f0-bdb7-5d87b47c0304</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -156,7 +156,7 @@
       <name>width</name>
       <type>Main</type>
       <value>992</value>
-      <webElementGuid>36c38f3b-c7ca-427c-be8b-ea51da9d5d97</webElementGuid>
+      <webElementGuid>800a5f58-3c1b-4385-836a-db471f64743d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +164,7 @@
       <name>height</name>
       <type>Main</type>
       <value>116</value>
-      <webElementGuid>bf9e03a0-ca1e-42c7-b43a-370969952d03</webElementGuid>
+      <webElementGuid>a8673669-75c8-42e2-9ee8-714b38fe171b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -172,7 +172,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[44,390][1036,506]</value>
-      <webElementGuid>7befbf84-d9d7-41d0-84d5-476c705b26df</webElementGuid>
+      <webElementGuid>14791e5e-9f4d-42d2-967b-8efe5ea49da5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -180,7 +180,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>41c4ad76-5321-4fcb-b186-ddd439286619</webElementGuid>
+      <webElementGuid>33fd77fe-041c-4b46-83ba-aabee92bcc84</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -188,8 +188,8 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[2]</value>
-      <webElementGuid>d310f0e6-ca8f-4e5d-a9f7-1a01fb16143e</webElementGuid>
+      <webElementGuid>3893050c-7686-4f7f-a625-817aa8f626d3</webElementGuid>
    </webElementProperties>
-   <locator>//android.widget.TextView[@resource-id='label_deskripsiMasukkanOTP']/following-sibling::android.view.ViewGroup/descendant::android.widget.EditText[@resource-id='textInput']</locator>
+   <locator>(//android.widget.TextView[@resource-id='label_deskripsiMasukkanOTP']/following-sibling::android.view.ViewGroup/descendant::android.widget.EditText[@resource-id='textInput'])(${d})</locator>
    <locatorStrategy>XPATH</locatorStrategy>
 </MobileElementEntity>
